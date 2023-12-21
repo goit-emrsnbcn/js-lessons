@@ -5,5 +5,11 @@ Example 2 - Arrays and Strings
 - Values guaranteed separated by a space.
 
 const values = '8 11';
-
 */
+
+const values = "8 11";
+const nums = values.split(" ");
+console.log(nums);
+
+const area = nums[0] * nums[1];
+console.log(area);

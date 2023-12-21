@@ -8,3 +8,8 @@ Element numbering must start from 1.
 const fruits = ['🍎', '🍇', '🍑', '🍌', '🍋'];
 
 */
+
+const fruits = ["🍎", "🍇", "🍑", "🍌", "🍋"];
+for (let i = 0; i < fruits.length; i++) {
+    console.log(`${i + 1} : ${fruits[i]}`); // 1: 🍎
+}

@@ -8,5 +8,13 @@ Example 1 - Basic operations with an array
 5. Remove the first element and print it to the console.
 6. Insert "Country" and "Reggae" at the beginning of the array.
 
-
 */
+let genres = ["Jazz and Blues"];
+genres.push("Rock and Roll");
+console.log(genres[0]);
+console.log(genres[genres.length - 1]);
+console.log(genres.shift());
+genres.unshift("Country");
+genres.unshift("Reggae");
+
+console.log(genres); //['Reggae', 'Country', 'Rock and Roll']
