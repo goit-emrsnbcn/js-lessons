@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>MASKED VALUE: <span id="masked-value"></span></h2>
+        <input
+            type="text"
+            id="mask-input" />
+        <button id="mask-btn">MASK THE VALUE</button>
+        <!-- helloworld  ######orld-->
+
+        <hr />
+
+        <!--
+            HALF IT AND ROUND IT DOWN
+            25 => 25 + 12 + 6 + 3 + 1 = 47
+            20 => 20 + 10 + 5 + 2 + 1 = 38
+         -->
+
+        <h2>Half it <span id="half-output"></span></h2>
+        <input
+            type="number"
+            id="half-input" />
+        <button id="half-btn">HALF IT</button>
+
+        <hr />
+
+        <!-- 
+            88 => 8 + 8 => 16 => 1 + 6 => 7 "Not very even"
+            222 => 2 + 2 + 2 => 6 "Very Even"
+            5 => "Not very even"
+            841 => 8 + 4 + 1 => 13 => 1 + 3 => 4 "Very even"
+         -->
+
+        <h2>Very Even: <span id="ve-output"></span></h2>
+
+        <input
+            type="number"
+            id="ve-input" />
+        <button id="ve-btn">Very Even</button>
+
+        <script src="./js/script5.js"></script>
+    </body>
+</html>
