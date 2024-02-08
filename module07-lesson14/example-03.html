@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Example 1</title>
+		<style>
+			body {
+				height: 3000vh;
+				font-family: sans-serif;
+			}
+
+			.counter {
+				position: sticky;
+				top: 100px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.box {
+				margin: 10px;
+				font-size: 24px;
+				padding: 10px 15px;
+				border: 3px solid orange;
+				border-radius: 8px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="counter">
+			<h2>Scroll</h2>
+			<div class="box">Without Throttling: <span id="outputScrollDefault">0</span></div>
+			<div class="box">With Throttling: <span id="outputScrollThrottling">0</span></div>
+			<div class="box">With Debounce: <span id="outputScrollDebounce">0</span></div>
+		</div>
+
+		<script
+			async
+			src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+			integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"></script>
+		<script src="./js/example-03.js"></script>
+	</body>
+</html>
